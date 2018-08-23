@@ -1,0 +1,204 @@
+#userData
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#userData td, #customers th 
+{
+font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#userData th 
+{
+font-size:14px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+#userData tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+#messageData
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:98%;
+border-collapse:collapse;
+padding-top: 100px;
+}
+#messageData td, #customers th 
+{
+font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#messageData th 
+{
+font-size:14px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+#messageData tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+#messageData1
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:250px;
+
+border-collapse:collapse;
+}
+#messageData1 td, #customers th 
+{
+font-size:12px;
+border:1px solid #01DFD7;
+padding:0px 4px 2px 7px;
+text-align:left;
+}
+#messageData1 th 
+{
+font-size:14px;
+text-align:center;
+padding-top:7px;
+padding-bottom:4px;
+background-color:#0B243B;
+color:#ffffff;
+}
+#messageData1 tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+#messageData1 td 
+{
+color:#0A0A2A;
+}
+
+#messageData2
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:890px;
+border-collapse:collapse;
+}
+#messageData2 td 
+{
+font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+text-align:center;
+color: #0A0A2A;
+}
+#messageData2 th 
+{
+font-size:14px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#0B243B;
+color:#ffffff;
+}
+#messageData2 tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+#messageData3
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:920px;
+border-collapse:collapse;
+}
+#messageData3 td 
+{
+font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+text-align:center;
+color: #0A0A2A;
+}
+
+#messageData3 th a:link {
+color:#ffffff;
+font-weight: bold;
+text-decoration:underline;
+}
+
+#messageData3 th a:visited {color:#ffffff;} /* visited link */
+#messageData3 th a:hover {color:#8A2908;}   /* mouse over link */
+#messageData3 th a:active {color:#ffffff;}  /* selected link */
+
+
+#messageData3 th 
+{
+font-size:14px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#B18904;
+color:#ffffff;
+}
+
+#messageData3 tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+#messageData4
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:1000px;
+border-collapse:collapse;
+}
+#messageData4 td 
+{
+font-size:12px;
+border:1px solid #01DFD7;
+padding:3px 7px 2px 7px;
+text-align:center;
+color: #0A0A2A;
+}
+#messageData4 SPAN.pagebanner
+{
+	font-size:20px;
+}
+#messageData4 th a:link {
+color:#ffffff;
+font-weight: bold;
+text-decoration:underline;
+}
+
+#messageData4 th a:visited {color:#ffffff;} /* visited link */
+#messageData4 th a:hover {color:#8A2908;}   /* mouse over link */
+#messageData4 th a:active {color:#ffffff;}  /* selected link */
+
+
+#messageData4 th 
+{
+font-size:14px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#0B243B;
+color:#ffffff;
+}
+
+#messageData4 tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}

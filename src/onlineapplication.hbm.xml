@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.OnlineApplication" table="onlineapplication">
+		<id name="applicationid" column="applicationid">
+			<generator class="increment" />
+		</id>
+		<property name="course" column="course"/>
+		<property name="specialization" column="specialization"/>
+		<property name="lastName" column="lastName"/>
+		<property name="firstName" column="firstName"/>
+		<property name="middleName" column="middleName"/>
+		<property name="fatherLast" column="fatherLast"/>
+		<property name="fatherFirst" column="fatherFirst"/>
+		<property name="fatherMiddle" column="fatherMiddle"/>
+		<property name="addForCorres" column="addForCorres"/>
+		<property name="permanentAddress" column="permanentAddress"/>
+		<property name="admissionDate" column="admissionDate"/>
+		<property name="gender" column="gender"/>
+		<property name="nationality" column="nationality"/>
+		<property name="teleResidence" column="teleResidence"/>
+		<property name="teleOffice" column="teleOffice"/>
+		<property name="mobile" column="mobile"/>
+		<property name="email" column="email"/>
+		
+		<property name="degree1" column="degree1"/>
+		<property name="collage1" column="collage1"/>
+		<property name="examMonth1" column="examMonth1"/>
+		<property name="examYear1" column="examYear1"/>
+		<property name="subjects1" column="subjects1"/>
+		<property name="results1" column="results1"/>
+		
+		<property name="degree2" column="degree2"/>
+		<property name="collage2" column="collage2"/>
+		<property name="examMonth2" column="examMonth2"/>
+		<property name="examYear2" column="examYear2"/>
+		<property name="subjects2" column="subjects2"/>
+		<property name="results2" column="results2"/>
+		
+		<property name="degree3" column="degree3"/>
+		<property name="collage3" column="collage3"/>
+		<property name="examMonth3" column="examMonth3"/>
+		<property name="examYear3" column="examYear3"/>
+		<property name="subjects3" column="subjects3"/>
+		<property name="results3" column="results3"/>
+		
+		<property name="degree4" column="degree4"/>
+		<property name="collage4" column="collage4"/>
+		<property name="examMonth4" column="examMonth4"/>
+		<property name="examYear4" column="examYear4"/>
+		<property name="subjects4" column="subjects4"/>
+		<property name="results4" column="results4"/>
+		
+		<property name="degree5" column="degree5"/>
+		<property name="collage5" column="collage5"/>
+		<property name="examMonth5" column="examMonth5"/>
+		<property name="examYear5" column="examYear5"/>
+		<property name="subjects5" column="subjects5"/>
+		<property name="results5" column="results5"/>
+		
+		<property name="experienceA" column="experienceA"/>
+		<property name="experienceB" column="experienceB"/>
+		<property name="experienceC" column="experienceC"/>
+		<property name="experienceD" column="experienceD"/>
+		<property name="experienceE" column="experienceE"/>
+		<property name="experienceF" column="experienceF"/>
+		
+		<property name="examOption" column="examOption"/>
+		<property name="fees" column="fees"/>
+	
+		
+	</class>
+</hibernate-mapping>

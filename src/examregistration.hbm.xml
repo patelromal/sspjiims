@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.ExamRegistration" table="examregistration">
+		<id name="examregisterid" column="examregisterid">
+			<generator class="increment" />
+		</id>
+		<property name="studentname" column="studentname"/>
+		<property name="regrefno" column="regrefno"/>
+		<property name="course" column="course"/>
+		<property name="address" column="address"/>
+		<property name="admissiondate" column="admissiondate"/>
+		<property name="branch" column="branch"/>
+		<property name="contactno" column="contactno"/>
+		<property name="email" column="email"/>
+		<property name="probabledate" column="probabledate"/>
+		
+	</class>
+</hibernate-mapping>

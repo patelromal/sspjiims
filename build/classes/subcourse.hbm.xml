@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.SubCourse" table="subcourse">
+		<id name="subcourseid" column="subcourseid">
+			<generator class="increment" />
+		</id>
+		<property name="subcoursename" column="subcoursename"/>
+		<property name="courseid" column="courseid"/>
+		<property name="prerequisites" column="prerequisites"/>
+		<property name="fasttrack" column="fasttrack"/>
+		<property name="regular" column="regular"/>
+		<property name="fees" column="fees"/>
+		<property name="feesremark" column="feesremark"/>
+		<property name="online" column="online"/>
+		<property name="home" column="home"/>
+		<property name="centrebased" column="centrebased"/>
+		<property name="structure" column="structure"/>
+		<property name="paragraph1" column="paragraph1"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+<!-- 	<constant name="struts.action.extension" value=","/> http://www.progbear.com/voice/2010/struts-2-create-friendly-url-with-urlrewritefilter -->
+      
+	<package name="default" extends="struts-default">
+
+<interceptors>
+    <interceptor name="mylogging" class="com.MyLoggingInterceptor"/>
+</interceptors>
+
+   
+		<action name="Login" class="actions.LoginAction">
+			<result name="populate">/login.jsp</result>
+			<result name="success">/login.jsp</result>
+			<result name="admin">/adminhome.jsp</result>
+			<result name="student">/studenthome.jsp</result>
+			<result name="fail">/login.jsp</result>
+		</action>
+
+		<action name="Course" class="actions.AdminHomeAction">
+			<result name="success">/index.jsp</result>
+			<result name="addcourse">/adminhome.jsp</result>
+			<result name="editcourse">/adminhome.jsp</result>
+			<result name="updatecourse">/adminhome.jsp</result>
+			<result name="deletecourse">/adminhome.jsp</result>
+		</action>
+		
+		<action name="SubCourse" class="actions.AdminHomeAction">
+			<result name="searchsubcourse">/adminhome.jsp</result>
+			<result name="addsubcourse">/adminhome.jsp</result>
+			<result name="editsubcourse">/adminhome.jsp</result>
+			<result name="updatesubcourse">/adminhome.jsp</result>
+			<result name="deletesubcourse">/adminhome.jsp</result>
+		</action>
+
+		<action name="courseDetails" class="actions.AdminHomeAction">
+			<result name="coursepage">/course.jsp</result>
+		</action>
+		
+		<action name="subCourseDetails" class="actions.AdminHomeAction">
+			<result name="subcoursepage">/subcourse.jsp</result>
+		</action>
+		
+		<action name="exam" class="actions.ExaminationAction">
+			<result name="success">/examform.jsp</result>
+		</action>
+		
+		<action name="examdetails" class="actions.ExaminationAction">
+			<result name="examdetails">/examdetails.jsp</result>
+			<result name="success">/examdetails.jsp</result>
+		</action>
+		
+		<action name="onlineappdetails" class="actions.OnlineApplicationAction" method="onlineApplicationDetails">
+			<result name="appdetails">/applicationdetails.jsp</result>
+		</action>
+		
+		<action name="OnlineApplication" class="actions.OnlineApplicationAction">
+			<result name="success">/onlineapplication.jsp</result>
+		</action>
+		
+		<action name="PaymentAction" class="mbeans.PaymentAction" method="processPayment">
+			<result type="redirect">
+				<param name="location">${action1}</param>
+				<param name="txnid">${txnid}</param>
+				<param name="key">${key}</param>
+				<param name="amount">${amount}</param>
+				<param name="productinfo">${productinfo}</param>
+				<param name="firstname">${firstname}</param>
+				<param name="email">${email}</param>
+				<param name="phone">${phone}</param>
+				<param name="surl">${surl}</param>
+				<param name="furl">${furl}</param>
+				<param name="service_provider">${service_provider}</param>
+			</result>
+		</action>
+
+	</package>
+</struts>

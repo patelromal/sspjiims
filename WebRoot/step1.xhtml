@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Fees Details</title>
+</h:head>
+        
+<h:form>
+
+<h:panelGrid columns="4" cellpadding="5">
+        <h:outputText value="firstname" />
+        <p:inputText id="firstname" value="#{paymentMB.fName}" />
+ 
+        <h:outputText value="lastname" />
+        <p:inputText id="lastname" value="#{paymentMB.lName}" />
+        
+        <h:outputText value="email" />
+        <p:inputText id="email" value="#{paymentMB.email}" />
+        
+        <h:outputText value="phone" />
+        <p:inputText id="phone" value="#{paymentMB.phone}" />
+        
+        <h:outputText value="productinfo" />
+        <p:inputText id="productinfo" value="#{paymentMB.productinfo}" />
+ 
+        <h:outputText value="amount" />
+        <p:inputText id="amount" value="#{paymentMB.amount}" />
+        
+        <h:outputText value="address1" />
+        <p:inputText id="address1" value="#{paymentMB.address1}" />
+        
+        <h:outputText value="address2" />
+        <p:inputText id="address2" value="#{paymentMB.address2}" />
+        
+        <h:outputText value="city" />
+        <p:inputText id="city" value="#{paymentMB.city}" />
+ 
+        <h:outputText value="state" />
+        <p:inputText id="state" value="#{paymentMB.state}" />
+        
+        <h:outputText value="country" />
+        <p:inputText id="country" value="#{paymentMB.country}" />
+        
+        <h:outputText value="zipcode" />
+        <p:inputText id="zipcode" value="#{paymentMB.zipcode}" />
+
+
+<p:commandButton value="Submit" actionListener="#{paymentMB.paymentAction}" ajax="true" style="width:100px;height:35px;"/>        
+        
+ </h:panelGrid>
+    
+
+
+</h:form>    
+
+</html>

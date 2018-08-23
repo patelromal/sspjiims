@@ -1,0 +1,611 @@
+body	{ margin:0px; font:normal 12px/20px "Lucida Sans unicode", Arial, Helvetica, sans-serif; }
+* html 	{ margin:0; padding:0; }
+
+.float_div {position:fixed;left:0px; width:37px; padding:10px; top:300px; background:#F8F7F5;}
+
+.alignleft		{ float:left; margin:10px 20px 10px 0;}
+.alignright		{ float:right; margin:10px 0px 15px 20px; }
+.aligncenter	{ clear:both; display:block; margin:10px auto; padding:10px 0;}			
+
+.fr				{ float:right; }
+.fl				{ float:left; }
+
+p				{ margin: 0px 0 15px 0;}
+p.small 		{ font-size:11px; line-height:normal; }d
+.clear 			{ clear:both;}
+
+/* ################################################
+	PLAIN DIVIDER	
+################################################### */
+
+.divider 		{ clear:both; background:url(../images/divider.gif) repeat-x; padding:10px 0; margin:10px 0;}
+
+/* ################################################
+		STRIPE DIVIDER	
+################################################### */
+
+.stripe_divider 		{ clear:both; background:url(../images/l-divider.gif) repeat-x; padding-left:0px; padding-right:10px; margin:20px 0; font-size:10px; text-align:right;}
+.stripe_divider span { background:#fff; text-transform:uppercase; padding:0 10px; line-height:1;}
+
+/* ################################################
+			HEADINGS
+################################################### */
+
+h1	{
+	font: normal 24px/28px "Tahoma", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+
+h2	{
+	font: normal 20px/26px "Georgia", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:5px 0 10px 0;	
+	}
+
+h3 	{ 
+	font: normal 16px/22px "Trebuchet MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:5px 0 10px 0;
+	}
+
+h4 	{ 
+	font: bold 14px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+
+h5 	{ 
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+
+h6 	{ 
+	font: normal 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+
+
+/* ################################################
+			LAYOUT
+################################################### */
+
+#main			{ width:100%; margin-left:auto; margin-right:auto;}	 /* Content Wrap below header*/
+#content ul,ol	{ margin-left:30px; margin-bottom:10px;}
+#Wrapper		{ width:960px; margin:0 auto; } 
+#header			{ width:940px; margin:0 auto; height:200px;}
+
+
+#mainpage #sidebar		{ width:290px; float:left; border-left:1px dotted #8a8a8a;}
+#mainpage #content		{ width:640px; float:left; display:inline; padding:30px 10px 30px 10px; text-align:justify;}
+
+#sidebar				{ float:left; 	width:260px; margin-top:30px; }
+#sidebar_right			{ float:right; 	width:260px; margin-top:35px; margin-right:10px; }
+
+
+#content				{ float:left; display:inline; }
+
+#footer					{ width:940px; margin:0 auto; }
+
+/* ################################################
+			TOPBAR
+################################################### */
+
+.tollfree				{ margin:10px 0 0 5px; float:left; font-size:12px;}
+.clientlogin 			{ margin:5px 10px 0 0; float:right; }
+.clientlogin img		{ vertical-align:middle;}
+
+
+/* ################################################
+			LOGO
+################################################### */
+
+#logopart				{ margin:0 auto;}
+.logopart				{width:100%; float:left;}
+.logo img 				{ margin:0px 0px 0 0px; text-indent:-9999px; display:block; border:0; float:left;}
+		
+	
+/* ################################################
+			TOPMENU
+################################################### */
+.topmenu				{ margin-top:0px; float:left; }
+.submit_jn				{ background:#ed5d21; border:none; color:#ffffff; padding:3px 6px; }
+.submit_tp 				{ background:#333333; border:none; color:#fff; padding:3px 6px; } 
+.feat_box				{ font-family:Arial, Helvetica, sans-serif; line-height:normal; }
+
+.feat_box a 			{ color:#e14711; text-decoration:underline; font-weight:bold;}
+
+/* ################################################
+			SLIDER BACKGROUND
+################################################### */
+
+.sliderbg 				{ padding:0px; width:940px; margin: 0 auto; height:310px; margin-top:20px; position:relative;
+						  -moz-box-shadow:0px 0px 10px #444; /* CSS3 Shadow */
+						  -webkit-box-shadow:0px 0px 10px #444; /* CSS3 Shadow */
+						  box-shadow:0px 0px 10px #444; /* CSS3 Shadow */
+							}
+	
+/* ################################################
+			BLIND SLIDER
+################################################### */
+
+.slideshow ul 			{ margin:0; padding:0;}
+.slideshow ul li		{ height:310px;}
+
+.change_link 			{ border: 0px solid #bbb; text-decoration: none; display:block; text-align:right; }
+.blind_nav				{ position:absolute; top:10px; right:0; z-index:100;}
+.blind_nav a			{ margin-bottom:5px; }
+
+
+/* ################################################
+			SUB HEADER
+################################################### */
+
+#subheader				{ width:940px; margin:0 auto; height:60px;}
+
+.subheader_left			{ float:left; }
+.subheader_right		{ float:right;}
+
+											
+
+/* ################################################
+			SIDEBAR MENU
+################################################### */
+
+ul.subnav					{ padding:5px 0 10px 0px; }
+ul.subnav h3				{ margin-top:20px; margin-left:20px; }
+	
+ul.subnav li 				{ margin-left:0px; padding:0; list-style-type:none; }
+
+#sidebar h3			{ margin-left:10px; }
+#sidebar_right h3	{ margin-left:10px; }
+
+
+/* ################################################
+		HOMEPAGE FEATURELIST	
+################################################### */
+
+
+.box				{ padding:20px 20px 0 20px; text-align:justify; }
+.box1				{ padding:20px 20px 0 20px; text-align:justify; }
+
+ul.featurelist 		{ margin:0; padding:0 0 10px 0; list-style:none;  }
+ul.featurelist li  	{ margin:0 0 5px 0; padding:0; }
+ul.featurelist li p 	{ margin:0;}
+ul.featurelist li img	{ padding:0 10px; vertical-align:middle;	margin:0; }
+		
+
+/* ################################################
+	CONTENT RIGHTPART	
+################################################### */
+
+#content		{ width:670px; float:left; display:inline; padding:30px 10px 30px 10px;}
+#content_full	{ width:940px; padding:30px 10px 30px 10px; }
+
+
+/* ################################################
+	FEATURES BOXES
+################################################### */
+
+.fullwidth 				{ width:100%; }
+.fullwidth .feature-box	{ width:38%; }
+		
+.feature-box	{ width:34%; padding:0px 10px 10px 80px; margin:10px 10px 10px 0; float:left;}
+.feature-box2	{ width:90%; padding:0px 10px 10px 80px; margin:10px 10px 10px 0;}
+
+
+/* ################################################
+	GALLERY PAGE	
+################################################### */
+
+.gallery_wrap		{ margin:35px auto 0 auto; position:relative; overflow:hidden; }
+
+ul.gallery_box 		{ margin:0px 0 0 20px;}	
+ul.gallery_box li		{ width:290px; float:left; background:url(../images/gallery_bg.png) 0 0 no-repeat; text-align:center; cursor:pointer;display:block; padding-top:10px; margin:7px; margin-top:20px; }	
+ul.gallery_box li img	{ padding-left:10px;}
+
+.gallery_box .loading 	{ background: url(../ajax-loader.gif) no-repeat center center; text-align:center; display:block; width:270px; height:170px;}
+.gallery_loader 		{ display:block; width:270px; height:170px;}
+
+.gallery_box h2 		{ margin:15px 0 10px 0 ; padding:0; text-align:left;}
+
+
+/* ################################################
+	PAGINATION	
+################################################### */
+
+.pagination		{ clear:both; margin-top:30px; height:50px; margin-left:20px; width:100%;}
+
+.pagination a, 
+.pagination a:link, 
+.pagination a:visited,
+.pagination a:active,
+.pagination span.current,
+.pagination span.pages,
+.pagination span.extend		{ font-size:10px; padding: 6px;  margin: 1px; color:#444; border: 1px solid #c8c8c8; background: #FFFFFF; }
+
+.pagination span.pages 		{ border:0; text-transform:uppercase }
+.pagination a:hover 		{ border: 1px solid #000; background: #fff; }
+
+.pagination span.current 	{ padding: 6px; margin: 1px; font-weight: bold; color:#777; border: 1px solid #000;}
+
+/* ################################################
+		PORTFOLIO PAGE
+################################################### */
+
+.portfoliobox	{ width:100%; margin-bottom:30px; }
+	
+.col2 			{ width:470px; float:left; margin-right:20px; }
+.portimg		{ width:470px; background:	url(../images/portfolio_bg.png) no-repeat; display:block; height:270px; padding-top:12px; padding-left:15px;}
+.details 		{ width:380px; float:left; padding-top:10px; }
+.details ul 	{ margin-bottom:10px;}
+.details ul li 	{ background: transparent url("../images/check.gif") no-repeat 0 .2em;  padding-left: 20px; display:inline; width:150px; float:left; }
+
+
+/* ################################################
+			BLOG POST
+################################################### */
+
+.post				{ margin:0px 0 10px 0; height:100%;}
+.postmetadata		{ margin:0 0 15px 0; padding:0 0 5px 0; font-size:10px; background:url(../images/divider.gif) bottom left repeat-x;}
+.post-img img		{ background-color:#fff; border:1px solid #ccc;	padding:5px; margin:0 0 10px 0;	}
+.post h2 			{ margin-bottom:0px; padding:0;}
+
+span.postcomment 	{ float:right; margin:0px 10px 10px 10px;}
+					
+/* ################################################
+			BLOG POST AUTHOR BOX
+################################################### */
+
+.authorbox 	h3		{ margin-bottom:0; }						 
+.authorbox 	.avatar	{ float:left; margin:5px 15px 15px 0; border:1px solid #999999; padding:1px;}						 
+
+/* Remove this class selector if you do not want shadow for the box and rounded corners */
+.authorbox			{ -moz-box-shadow:0px 0px 3px #444; /* CSS3 Shadow */
+					  -webkit-box-shadow:0px 0px 3px #444; /* CSS3 Shadow */
+					  box-shadow:0px 0px 3px #444; /* CSS3 Shadow */
+					  -moz-border-radius:5px;
+					  -webkit-border-radius:5px;					  
+					  -khtml-border-radius:5px;					  
+					  border-radius:5px;					  
+					} 				 
+
+/* ################################################
+	ALERT BOXES	
+################################################### */
+
+span.error {
+	color: #cc0000;
+	border-top: 3px solid #fe7b7a;
+	border-bottom: 3px solid #fe7b7a;
+	background: #ffd6d6 url(../images/icons/error.png) 2% 50% no-repeat;
+	}
+
+span.info {
+	color: #0055bb;
+	border-top: 3px solid #629de3;
+	border-bottom: 3px solid #629de3;
+	background: #d8e5f8 url(../images/icons/info.png) 2% 50% no-repeat;
+	}
+
+span.alert {
+	color: #b79000;
+	border-top: 3px solid #fde179;
+	border-bottom: 3px solid #fde179;
+	background: #fef6d8 url(../images/icons/alert.png) 2% 50% no-repeat;
+	}
+
+span.download {
+	color: #57861a;
+	border-top: 3px solid #c2df88;;
+	border-bottom: 3px solid #c2df88;;
+	background: #eef7dd url(../images/icons/download.png) 2% 50% no-repeat;
+	}
+
+span.success {
+	color: #57861a;
+	border-top: 3px solid #c2df88;;
+	border-bottom: 3px solid #c2df88;;
+	background: #eef7dd url(../images/icons/check.html) 2% 50% no-repeat;
+	}
+
+span.error,
+span.info,
+span.alert,
+span.success,
+span.download {
+		display: block;
+		padding: 10px 10px 10px 45px;
+		margin: 5px 0;	
+		-moz-box-shadow:0px 0px 2px #444; /* CSS3 Shadow */
+		-webkit-box-shadow:0px 0px 2px #444; /* CSS3 Shadow */
+		box-shadow:0px 0px 2px #444; /* CSS3 Shadow */	
+	}
+
+
+/* ################################################
+	PRE CODE	
+################################################### */
+
+pre {
+                      /* specify width  */
+	white-space: pre-wrap;                 /* CSS3 browsers  */
+	white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+	white-space: -pre-wrap;                /* Opera 4 thru 6 */
+	white-space: -o-pre-wrap;              /* Opera 7 and up */
+	word-wrap: break-word;                 /* IE 5.5+ and up */
+	/* overflow-x: auto; */                /* Firefox 2 only */
+	/* width: 99%; */		       /* only if needed */
+	}
+
+pre {
+	border: 1px solid #ddd;
+	margin: 10px 0; 
+	padding:10px; 
+	line-height:15px;
+	background: #f0f0f0;
+	font-family:"Courier New", courier, monospace, sans-serif;
+	}
+
+code {
+	font-size:1.2em; 
+	}
+
+/* ################################################
+	GENERIC		
+################################################### */
+
+span.inset-left {
+	display: block;
+	padding: 15px;
+	float: left;
+	width: 20%;
+	font:italic normal 12px/20px Georgia, Arial, Sans-serif;
+	}
+
+span.inset-right {
+	display: block;
+	padding: 15px;
+	float: right;
+	width: 20%;
+	font-weight: bold;
+	font:italic normal 12px/20px Georgia, Arial, Sans-serif;
+	}
+
+
+/* ################################################
+	DEFINITION LISTS	
+################################################### */
+
+ dl {
+ 	border: 1px solid #ddd; 
+ 	padding: 0.5em; 
+	}
+	dt { 
+	float: left; 
+	clear: left; 
+	width: 150px; 
+	text-align: right; 
+	font-weight: bold; 
+	color: #484848; 
+	} 
+	dt:after { 
+	content: " : "; 
+	} 
+	dd:before { 
+	content: ""; 
+	padding-left:5px;
+	} 
+	dd { 
+	margin: 0 0 0 110px; 
+	padding: 0 0 0.5em 0; 
+	}
+	
+
+/* ################################################
+LOGIN POPUP FORM	
+################################################### */
+
+
+#loginform 				{ width: 100%; text-align: center; padding: 10px 0 10px 0;}
+#loginform 				{ width: 300px; text-align: left; margin: 0 auto; }
+#loginform label		{ font:normal 11px/30px Tahoma, Arial, Helvetica, sans-serif; color: #000; text-align:right; float: left; width: 80px; padding: 0;}
+#loginform input		{ width: 180px; float: right; background: #f0f0f0 url('../images/bg-input.html') top left repeat-x;  border:1px solid #ccc; margin: 0 0 10px 0; padding:8px !important; }
+#loginform p 			{ padding: 0; }
+#loginform p .button	{ width: auto;	margin:0 auto; margin-top: 20px;}
+
+.link_in {
+background:url(../images/bullet_btn.png) left no-repeat;
+display:block;
+padding:5px 10px 5px 18px;
+font-size:14px;
+}
+
+.tb_bor td{
+border:1px #333;
+border-collapse:collapse;
+border-style:solid;
+}
+
+.box input, .box textarea, .box select {
+border:1px solid #666;
+}
+
+.box td {
+vertical-align:top;
+}
+
+.box label {
+text-align:left;
+}
+
+.table_title {
+padding:5px;
+text-align:center;
+color:#FFFFFF;
+vertical-align:top;
+background:#e55318;
+border-right:1px solid #fff;
+border-left:1px solid #e55318;
+}
+
+.table_cont {
+border:1px solid #e55318;
+padding:5px;
+text-align:center;
+}
+
+.table_bot {
+border-bottom:1px dotted #333;
+padding:5px;
+}
+
+.center_line {
+background:url(../images/bor.jpg) repeat-y top center;
+}
+
+.top_line {
+border-top:1px dotted #333;
+}
+/*
+ * jQuery UI Tabs 1.8.22
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+ 
+#tabs ul {
+	margin:0px;
+	float:left;
+	width:100%;
+	}
+ 
+#tabs {
+	width:430px;
+    margin: 0px 0;
+	float:left;
+}
+#tabs ul {
+    background: none repeat scroll 0 0 ;
+    float: left;
+    padding-top: 4px;
+}
+#tabs li {
+    list-style: none outside none;
+    margin-right: 3px;
+	padding:0px 8px;
+}
+* html #tabs li {
+    display: inline;
+}
+#tabs li, #tabs li a {
+    float: left;
+	background: #cde4f7;
+	color:#fff;
+}
+#tabs ul li.active {
+    background: none repeat scroll 0 0 #f1f1f1;
+    border-top: 1px solid #e6e6e6;
+	border-bottom:0px;
+}
+#tabs ul li.active a {
+    color: #333333;
+	background: none repeat scroll 0 0 #f1f1f1;
+}
+#tabs div {
+    background: none repeat scroll 0 0;
+    clear: both;
+    padding: 10px 0px;
+	border:0px solid #fcfcfc;
+}
+#tabs div h3 {
+    margin-bottom: 12px;
+}
+#tabs div p {
+    line-height: 150%;
+}
+#tabs ul li a {
+    color: #000000;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.thumbs {
+    border: 1px solid #000000;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#tabs div ul {
+	list-style:outside disc none;
+	background:none;
+	}
+	
+#tabs div ul li {
+	list-style:inside disc none;
+	background:none;
+	float:none;
+	color:#000;
+	}
+	
+#tabs .title-1 {
+	background:#ddd;
+	font-weight:bold;
+	} 
+	
+#tabs .title-2 {
+	background:#f1f1f1;
+	}
+	
+#tabs table td, .tabf td{
+	border:1px solid #bbb;
+	padding:5px;
+	}
+	
+#tabs table table td{
+	border:none;
+	border-collapse:separate;
+	padding:0px;
+}
+
+.tableTd {
+	padding-left: 30px;
+	
+}
+	
+.box23 {
+	padding:0px;
+	
+	}
+
+.box_c {
+	float:right;
+	width:200px;
+	padding:5px;
+	background:#CAE9FB;
+	border: 1px solid #DADADA;
+	}
+	
+.box_c input, .box_c textarea, .box_c select {
+border: 1px solid #FFC166;
+    border-radius: 4px 4px 4px 4px;
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    width: 190px;
+}
+
+.box_c td {
+vertical-align:top;
+}
+
+.box_c label {
+text-align:left;
+}
+
+.followus h5 { float: left; width: 140px;}

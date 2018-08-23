@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.Course" table="course">
+		<id name="courseid" column="courseid">
+			<generator class="increment" />
+		</id>
+		<property name="coursename" column="coursename"/>
+		<property name="courseparagraph1" column="courseparagraph1"/>
+		<property name="courseparagraph2" column="courseparagraph2"/>
+		<property name="courseparagraph3" column="courseparagraph3"/>
+		<property name="subcourselink" column="subcourselink"/>
+	</class>
+</hibernate-mapping>
